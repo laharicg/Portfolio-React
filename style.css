@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+body {
+	font-family: 'Rubik', sans-serif;
+}
+
+#root {
+	margin: 10px 20%;
+}
+
+
+.sidebar {
+	
+	text-align: left;
+	height: 100%;
+  width: 280px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #69dbb9;
+  overflow-x: hidden;
+  padding-top: 50px;
+            
+}
+
+#root {
+	margin: 0 20%;
+}
+
+.sidebar-items ul li {
+	display: inline;
+	list-style-type: none;
+	padding: 0 50px;
+	font-size: large;
+}
+
+.sidebar-items ul li button {
+	background-color: transparent;
+	border: 0;
+	color: white;
+	font-family: 'Rubik', sans-serif;
+	font-size: large;
+}
+
+
+.about {
+	
+	color: #69dbb9;
+}
+
+.about img {
+	width: 50%;
+	height: 50%;
+}
+
+h1{
+	text-align: center;
+	color: #791828;
+	font-size: xx-large;
+	
+}
+h2{
+	text-align: center;
+	color: #db698f;
+	font-size: large;
+	
+}
+
+h3{
+	text-align: left;
+	color: #a33d85;
+	margin-left: 10%;
+}
+
+p{
+	text-align: center;
+	color: #9169db;
+}
+
+.content {
+	margin: 20px 0;
+	color:  #69dbb9;
+}
+
+.workExp {
+	padding: 5% 0;
+}
+
+.workExp ul {
+	text-align: center;
+}
+
+.workExp ul li {
+	display: inline;
+	list-style-type: none;
+	padding: 0 40px;
+	font-size: xx-large;
+}
+
+.title{
+	color: #9169db;
+}
+.skills {
+	text-align: center;
+	font-weight: bolder;
+	font-size: x-large;
+	padding: 0%;
+}
+
+.skills ul {
+	text-align: center;
+}
+
+.skills ul li {
+	list-style-type: none;
+	padding: 0 40px;
+	font-size: x-large;
+}
+
+.contact {
+	text-align: center;
+	color: rgb(138, 128, 116);
+	padding: 20% 0;
+	max-width: 50%;
+}
+
+.contact ul {
+	text-align: center;
+}
+
+.contact ul li {
+	list-style-type: none;
+	padding: 0 40px;
+	font-size: large;
+}
+
+.education {
+	padding: 10% 0;
+}
+
+.education ul {
+	text-align: center;
+}
+
+.education ul li {
+	list-style-type: none;
+	padding: 0 40px;
+	font-size: xx-large;
+}
+
+.bar{
+	background: #FFFACD;
+	display:block;
+	height:2px;
+	width: 50%;
+	margin-left: 25%;
+	border:1px solid rgba(0,0,0,0.3);
+	border-radius:3px;
+	overflow:hidden;
+	box-shadow: 0 0 10px #808000;
+
+}
+
+.bar span{
+	height:2px;
+	float:left;
+	background:#FFA500;
+
+}
+
+.java{
+	width:75%;
+}
+
+.javascript{
+	width:90%;
+}
+.html{
+	width:90%;
+}
+
+.css{
+	width:85%;
+}
+.cpp{
+	width:70%;
+}
